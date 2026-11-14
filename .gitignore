@@ -1,0 +1,24 @@
+# Rust
+/target/
+**/*.rs.bk
+# JS / TS
+node_modules/
+dist/
+coverage/
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+# Local tooling
+.env
+.env.*
+!.env.example
+.DS_Store
+.idea/
+.vscode/
+# Cryptographic secrets and witnesses
+*.key
+*.pem
+*.secret
+*.witness

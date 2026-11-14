@@ -4,15 +4,15 @@
 
 CipherRep aims to let people prove claims such as **“my reputation is at least 90/100 based on at least 20 eligible ratings”** without publishing their individual ratings, transaction history, or exact score.
 
-> **Status: specification draft, not a working cryptographic implementation.** No security, privacy, or interoperability guarantees are claimed yet.
+> **Status: specification draft, not a working cryptographic implementation.** No security, privacy, or interoperability guarantees are claimed yet. In other words, this is still just an idea.
 
-## Explain like I'm five
+## el5
 
 Imagine collecting sealed scorecards after doing business with people. Nobody looking at your scorecards can read them. A special calculator can add up the sealed scores, and you can show another shop a mathematical certificate that says *“my average is high enough”* without showing the scorecards. The shop can check that certificate independently. CipherRep defines the rules that would make such a system possible.
 
 The hard part is also proving the scorecards were issued for real eligible transactions and were not copied, omitted, or invented. The design explicitly addresses those requirements.
 
-## Who uses it?
+## Who uses it? Whos it for?
 
 - **Rater:** issues an authenticated rating after an eligible transaction.
 - **Issuer/platform:** attests eligibility and rating policy, without necessarily learning future presentations.
